@@ -34,7 +34,6 @@
 .flex-column{
   display: flex;
   flex-direction: column;
-  
 }
 
 .header__title{
@@ -89,8 +88,174 @@
   z-index: 10;
 }
 
+.description{
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+}
 
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
 
+.two-columns{
+  display: flex;
+  width: 80%;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* position: absolute; */
+  justify-content: space-between;
+}
+
+.two-columns__brief{
+  width: 175px;
+  /* border: 1px solid red; */
+  align-self: stretch;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+  list-style: none;
+  right: 0;
+  margin-top: 0px;
+  /* border: 1px solid red; */
+}
+
+.two-columns__paragraph{
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.digits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits__section-title{
+  width: 60%;
+  /* border: 1px solid red; */
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__section-subtitle{
+  width: 60%;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.digits__table{
+  width: 1100px;
+  margin-bottom: 100px;
+  /* border: 1px solid red; */
+}
+
+.digits__table-cell{
+  width: 250px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  /* border: 1px solid red; */
+  list-style: none;
+}
+
+.digits__table-heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+}
+
+.digits__table-text{
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.digits__table-row-first{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.digits__table-row-second{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feinman{
+  height: 790px;
+  background-color: #f2f2f2;
+  /* border: 1px solid red;  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.feinman__title{
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 10;
+  margin-top: 100px;
+  /* border: 1px solid red;  */
+  justify-content: center;
+  text-align: center;
+}
+
+.feinman__subtitle{
+  line-height: 51px;
+  font-size: 34px;
+  margin-top: 70px;
+  z-index: 11;
+  /* border: 1px solid red;  */
+}
+
+.feinman__link{
+  line-height: 51px;
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+  align-self: flex-end;
+  position: absolute;
+  z-index: 12;
+  top: 50%;
+  padding-right: 48px;
+}
+
+.feinman__image{
+  width: 867px;
+  height: 637px;
+  bottom: 0;
+  align-self: flex-start;
+  position: absolute;
+  background-image: url(../images/feynman.png);
+  /* border: 1px solid red;  */
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 /* .header__square-pic {
