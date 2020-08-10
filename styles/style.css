@@ -110,6 +110,10 @@
   margin-top: 0px;
 }
 
+.two-columns__main-text :last-child{
+  margin-bottom: 0px;
+}
+
 .two-columns__paragraph{
   margin-top: 0px;
   margin-bottom: 30px;
