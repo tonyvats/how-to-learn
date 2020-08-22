@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <img src="./images/logo_place_header.svg" class="logo logo_place_header" alt="logo">  
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие&#160;современные&#160;и&#160;эффективные&#160;подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать&rarr;</a></p>
+      <p class="header__subtitle">Какие&#160;современные&#160;и&#160;эффективные&#160;подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link header__link_active">Узнать&rarr;</a></p>
       <img src="./images/header-image.png" class="header__main-illustration" alt="пикча">
       <div class="header__square-pic"></div>
     </header>
@@ -71,7 +70,7 @@
       <section class="feinman">
         <h2 class="feinman__title">Метод Фейнмана</h2>
         <p class="feinman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feinman__link">Подробнее&rarr;</a>
+        <a href="#" class="feinman__link feiman__link_active">Подробнее&rarr;</a>
         <img src="./images/feynman.png" class="feinman__image" alt="Изображение Фейнмана">
       </section>
       <section class="kaufman">
@@ -119,22 +118,22 @@
            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="triangle pic">
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <img src="./images/logo_place_footer.svg" class="logo logo_place_footer" alt="logo">
           <p class="footer__author">&copy;&#160;2020. Вац Антон</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h2 class="footer__column-heading">О Практикуме</h2>
           <nav>
             <ul class="footer__column-links">
-              <li><a href="#" class="footer__column-link">Главная</a></li>
-              <li><a href="#" class="footer__column-link">Концепция</a></li>
-              <li><a href="#" class="footer__column-link">Наставники</a></li>  
+              <li><a href="#" class="footer__column-link footer__column-link_active">Главная</a></li>
+              <li><a href="#" class="footer__column-link footer__column-link_active">Концепция</a></li>
+              <li><a href="#" class="footer__column-link footer__column-link_active">Наставники</a></li>  
             </ul>
           </nav>
         </div>
@@ -142,9 +141,9 @@
           <h2 class="footer__column-heading">Соцсети</h2>
             <nav>
               <ul class="footer__column-links">
-                <li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a></li>
-                <li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
-                <li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a></li>  
+                <li><a href="#" class="footer__column-link footer__column-link_active"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a></li>
+                <li><a href="#" class="footer__column-link footer__column-link_active"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
+                <li><a href="#" class="footer__column-link footer__column-link_active"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a></li>  
               </ul>
             </nav>
         </div>
