@@ -3,12 +3,13 @@
     /* border: 3px solid red; */
     width: 240px;
     padding: 0px;
-    /* margin: 0px; */
+    margin: 0px;
 }
 
 
 
-/* .cards__item:nth-of-type(5){
-    margin-left: 0;
-} */
+.cards__item:nth-of-type(5n) {
+    margin-left: 100px;
+}
+
 
